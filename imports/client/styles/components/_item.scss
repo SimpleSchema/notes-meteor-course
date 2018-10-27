@@ -35,7 +35,8 @@
 
 .item__title {
   font-weight: normal;
-  
+  font-size: $base-font-size;
+  margin-bottom: .4rem;
 }
 
 .item--selected .item__title {
@@ -43,6 +44,8 @@
 }
 
 .item__subtitle {
+  color: $dark-grey;
+  margin: 0;
 
 }
 
